@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles3.css">
+    <link rel="shortcut icon" href="./images/favincon.png" type="image/x-icon">
+    <script defer src="./carrito.js"></script>
+    <title>Discolos</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-sm">
+            <div class="logo">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./images/1200px-Disco_de_Vinilo.jpg" alt="logo">
+                    DÍSCOLOS
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id ="login" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mercado.html" target="_blank" >MERCADO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">COMUNIDAD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">NOSOTROS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <div class="card text-center" id="card-carrito">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="true" href="#">Carrito</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">PRODUCTOS SELECCIONADOS</h5>
+                <ol class="list-group list-group-numbered" id="contenedor">
+                </ol>
+            <button type="button" class="btn btn-success" id="confirmar" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            CONFIRMAR
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">¡Muchas gracias!</h1>
+                            <button type="button" class="btn-close cerrar" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">Su compra ha sido realizada con exito</div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary cerrar" data-bs-dismiss="modal">LISTO
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="grupo-1">
+            <div class="box">
+                <h3>CONTACTO</h3>
+                <a href="#">2346-425582</a>
+                <a href="#">discolosinfo@gmail.com</a>
+            </div>
+            <div class="box">
+                <h3>SEGUINOS</h3>
+                <div class="redes">
+                    <a href=""#><i class="bi bi-instagram"></i></a>
+                    <a href=""#><i class="bi bi-facebook"></i></a>
+                    <a href=""#><i class="bi bi-twitter"></i></a>
+                    <a href=""#><i class="bi bi-spotify"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+</body>
+</html>

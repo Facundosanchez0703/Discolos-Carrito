@@ -1,0 +1,15 @@
+- Completar JSON.
+
+- Diseñar pagina (html) del carrito de compras.
+
+- Hacer que el boton "comprar" me devuelva el objeto que se quiere comprar (buscando el objeto dentro del JSON con el id obtenido).
+
+- Crear array carrito (array vacio que se va ir llenado con los objetos seleccionados por el cliente. Este array es el que completara la informacion del html de la pagina del carrito).
+
+- Ver la forma de que las unidades del carrito se puedan sumar y restar. (Se hace con un if)
+
+- Almacenar el array del carrito en el localstorage para no perder los datos cada vez que se refresca la pagina.
+
+- Crear y diseñar el check out (parte final de la compra)
+
+- Poder filtrar los discos utilizando el buscador de la pagina del mercado

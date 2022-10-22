@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles2.css">
+    <link rel="shortcut icon" href="./images/favincon.png" type="image/x-icon">
+    <script src="./mercado.js" defer></script>
+    <title>Mercado - Discolos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a class="navbar-brand" href="./mercado.html">
+                        <img src="./images/1200px-Disco_de_Vinilo.jpg" alt="logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">FORMATO
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a data-formato="CD" class="dropdown-item formato" href="#">CD</a></li>
+                            <hr class="dropdown-divider"></li>
+                            <li><a data-formato="Vinilo" class="dropdown-item formato" href="#">Vinilo</a></li>
+                            <hr class="dropdown-divider"></li>
+                            <li><a data-formato="Cassette" class="dropdown-item formato" href="#">Cassette</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ORIGEN
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a data-origen="Nacional" class="dropdown-item origen" href="#">Nacional</a></li>
+                            <hr class="dropdown-divider"></li>
+                            <li><a data-origen="Importado" class="dropdown-item origen" href="#">Importado</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ESTADO
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a  data-estado="Nuevo" class="dropdown-item estado" href="#">Nuevo</a></li>
+                            <hr class="dropdown-divider"></li>
+                            <li><a  data-estado="Usado" class="dropdown-item estado" href="#">Usado</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">GENERO
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a data-genero="rock" class="dropdown-item genero" href="#">Rock</a></li>
+                            <hr class="dropdown-divider"></li>
+                            <li><a data-genero="Pop" class="dropdown-item genero" href="#">Pop</a></li>
+                            <hr class="dropdown-divider"></li>
+                            <li><a data-genero="Funk" class="dropdown-item genero" href="#">Funk</a></li>
+                            <hr class="dropdown-divider"></li>
+                            <li><a data-genero="Reggae" class="dropdown-item genero" href="#">Reggae</a></li>
+                            <hr class="dropdown-divider"></li>
+                            <li><a data-genero="Latino" class="dropdown-item genero" href="#">Latino</a></li>
+                            <hr class="dropdown-divider"></li>
+                            <li><a data-genero="Otros" class="dropdown-item genero" href="#">Otros</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./carrito.html" id="carrito" title="Haz click aquí para ir al Carrito">CARRITO</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Ingrese album o artista" id="texto-busqueda" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="contenedor">
+            <div class="container-fluid" id="listado">
+                <!-- <template class="card" id="card">
+                    <div class="card-top">
+                        <img class="portada" src="" alt="">
+                    </div>
+                    <div class="card-bot">
+                        <div class="info">
+                            <h5>Dillom - "POST MORTEM"</h5>
+                        </div>
+                        <div class="precio">
+                        <h6>$3.500
+                        </h6>
+                        </div>
+                    </div>
+                    <div class="carrito">
+                        <button type="button" class="btn btn-success">Comprar</button>
+                    </div>
+                </template> -->
+            </div>
+        </section>         
+    </main>
+    <footer class="footer" id="footer">
+        <div class="grupo-1">
+            <div class="box">
+                <h3>CONTACTO</h3>
+                <a href="#">2346-425582</a>
+                <a href="#">discolosinfo@gmail.com</a>
+            </div>
+            <div class="box">
+                <h3>SEGUINOS</h3>
+                <div class="redes">
+                    <a href=""#><i class="bi bi-instagram"></i></a>
+                    <a href=""#><i class="bi bi-facebook"></i></a>
+                    <a href=""#><i class="bi bi-twitter"></i></a>
+                    <a href=""#><i class="bi bi-spotify"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
